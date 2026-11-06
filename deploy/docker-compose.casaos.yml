@@ -374,7 +374,7 @@ services:
       - LOG_LEVEL=INFO
       - TZ=Europe/Lisbon
     hostname: byparr
-    image: ghcr.io/thephaseless/byparr:3.0.4
+    image: ghcr.io/thephaseless/byparr:3.1.1
     labels:
       icon: https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/png/jellyseerr.png
     init: true
