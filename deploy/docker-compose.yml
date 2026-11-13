@@ -53,7 +53,7 @@ services:
 
   seerr:
     <<: *common
-    image: ghcr.io/seerr-team/seerr:v3.5.1
+    image: ghcr.io/seerr-team/seerr:v3.5.2
     # A imagem corre como não-root: alinha com o dono da pasta de config (ver o init).
     user: '${PUID:-1000}:${PGID:-1000}'
     depends_on:
